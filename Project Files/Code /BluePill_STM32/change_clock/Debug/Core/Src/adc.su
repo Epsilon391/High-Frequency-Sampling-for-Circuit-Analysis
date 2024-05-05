@@ -1,0 +1,7 @@
+../Core/Src/adc.c:42:6:adc_uart_Init	88	static
+../Core/Src/adc.c:64:6:transferLoop	8	static
+../Core/Src/adc.c:87:6:setTimerFreq	24	static
+../Core/Src/adc.c:94:6:findTrigger	32	static
+../Core/Src/adc.c:128:7:adcToVoltage	16	static
+../Core/Src/adc.c:135:6:HAL_ADC_ConvCpltCallback	16	static
+../Core/Src/adc.c:142:6:HAL_UART_RxCpltCallback	16	static

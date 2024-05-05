@@ -1,0 +1,34 @@
+2/14:
+	- Finished Assembling and testing the first DSO138
+	- Started assembly of the second DSO138
+	- Started research on communicating with the DSO138
+2/21:
+	- Explored options for DSO138 communication including:
+		1. SPI
+		2. USART
+		3. Uart to USB
+		4. Mini USB to USB
+	- Failed test, Uart communication (PI to DSO) using Mini-Com
+	- Investigated Tektronix software and verified DSO138 testing procedures.
+
+2/28:
+	- Attempted Arduino to Arduino Uart communication and ran into issues with available serial ports. Was able to communicate in a single direction
+	- Failed attempt to communicate from Arduino to DSO
+	- Found DSO138 source code and additional Github resources
+	- Started to investigate alternative firmware versions
+
+
+3/6:
+	- Successfully Updated DSO138 Firmware
+	- Successfully read boot message from DSO138 via USART
+	- Successfully read voltages from the DSO138 to the Raspberry Pi via UART
+
+3/13:
+	- Discovered Voltage measurements were inconsistent
+	- Searched for modified DLO138 source code
+	- Discovered possible issue with the timescale of the DSO138 capture function
+	- Made attempts to build other DSO138 projects and understand the make files
+
+3/20:
+
+	-
